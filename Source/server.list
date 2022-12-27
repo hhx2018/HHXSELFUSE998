@@ -1,0 +1,10 @@
+# https://raw.githubusercontent.com/yu-steven/openit/main/https
+
+
+vmess=vu2r2.d3pi.com:443, method=aes-128-gcm, password=2e64d356-4ed4-426e-acb1-e40f940406bf, obfs=wss, obfs-host=vultr2.dogpipi.com, obfs-uri=/vwgevws, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=vultr2.dogpipi.com_vmess_ws
+
+vmess=vu41.dogp2i.com:443, method=aes-128-gcm, password=cfd9ab24-53cd-4cd1-bfba-2d810f0a7e3e, obfs=wss, obfs-host=vultr1.dogpipi.com, obfs-uri=/qngcvws, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=vultr1.dogpipi.com_vmess_ws
+
+vmess=va5a.do1ipi.ml:448, method=aes-128-gcm, password=f7edfe1b-99be-48fe-921d-863f8ab8d0fe, obfs=wss, obfs-host=vasma.dogpipi.ml, obfs-uri=/arrhvws, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=vasma.dogpipi.ml_vmess_ws
+
+trojan=ste9en.d8i.ml:36236, password=u5Owki1jmr, over-tls=true, tls-verification=false, fast-open=false, udp-relay=false, tag=Trojan+xtls=hostKMV-JP

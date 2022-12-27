@@ -1,0 +1,57 @@
+/*****************************************
+#  update> 2022-6-15
+# 网易云音乐解锁需要  网易云分流+对应分流的策略+分流策略组需要的解锁节点（本页）+网易云流量解密需要的证书
+
+# CA证书地址：https://raw.githubusercontent.com/nondanee/UnblockNeteaseMusic/master/ca.crt
+-----BEGIN CERTIFICATE-----
+MIIDdzCCAl+gAwIBAgIJAKX8LdIETDklMA0GCSqGSIb3DQEBCwUAMFIxCzAJBgNV
+BAYTAkNOMSQwIgYDVQQDDBtVbmJsb2NrTmV0ZWFzZU11c2ljIFJvb3QgQ0ExHTAb
+BgNVBAoMFEdpdEh1Yi5jb20gQG5vbmRhbmVlMB4XDTE5MDUxODE2MDU0NVoXDTI0
+MDUxNjE2MDU0NVowUjELMAkGA1UEBhMCQ04xJDAiBgNVBAMMG1VuYmxvY2tOZXRl
+YXNlTXVzaWMgUm9vdCBDQTEdMBsGA1UECgwUR2l0SHViLmNvbSBAbm9uZGFuZWUw
+ggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQD23K6Ti2TfLJToCmpCAVgE
+Xb8+qTMfrifCpnKlJ+hrL+4KI1j4vSqTOOatqmxGSXZdF/j2kJuI40YThaokcgYx
+GFcPcEftSCYGWy8o20u2hzTkkW3KW9wlsDRIXICFXVIsHeSDwz+aVSudkyJHjfaS
+aLNb5pPovE7MRj8tDbp55scaSqhEcOe3m1ZlwlCeeXvD7RLKr3xhBKbGEqlJAjFq
+RNGzuqylqyJVBLScNHC7Lcf4n6pKr1yPGOeLePOUrIwtj0ynHUcBfeMuCVCsIKL8
+vy/oNwlDrZaAMfu5QQslzEf87KY1QgtI6Ppii+tzbmVx1ZxnlaCKqiuwlgBoi/5r
+AgMBAAGjUDBOMB0GA1UdDgQWBBRDhbGjnXEUouE9wNFS2k9PtgYYjDAfBgNVHSME
+GDAWgBRDhbGjnXEUouE9wNFS2k9PtgYYjDAMBgNVHRMEBTADAQH/MA0GCSqGSIb3
+DQEBCwUAA4IBAQDRUh5+JFLEALXQkhPfwrVf4sCXTwLMwVujTPo3NMbhpWiP4cnn
+XHGCD5V57bBwjeD6NSrczDIdnN9uTJyFmLNVFMZBguEIeZfLUJLJ6w1ZhfgciX1D
+9djyyo6eclkHvi+aPZKfzgMmc5BvHcjyUyS5MzI23kUW6WXUDn3IDIUKrfaH9Mjc
+/d4DDZVKQCYrLoBL+XO7pEHUY0u9XZVYWEavQ5tSN8XY1SDrO0yGUpRWET0ltubE
+zV7W0LOhuoVCiemboc5H8+njBjCis8obAo1XMmDZzW189L9GPFxHNWlka+KlajZB
+tMo90PooZYEOw1rTUrzHb+VZY/tYIAAomGZ0
+-----END CERTIFICATE-----
+# 节点维护地址 https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/AgentNode/NeteaseMusicUnlock.list
+
+# QX 检测节点解锁状态脚本
+# event-interaction https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/TaskLocal/NeteaseMusicUnlockCheck.js, tag=网易音乐查询, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Netease_Music_Unlock.png, enabled=true
+
+在节点订阅链接后添加 checkurl=http://interface3.music.163.com  |第一段测试结果代表节点连接速度  第二段测试结果代表节点连接到网易云速度
+
+****************************************/
+# 来自 @摸鱼 整理 https://gist.githubusercontent.com/ddgksf2013/0653194415704470ec73e33e783abb90/raw/Netease.list
+# https://raw.githubusercontent.com/bilibili-boom/Rules/master/UnblockNeteaseMusic.list#checkurl=http://interface3.music.163.com
+
+http=os.tencentcdn.net:25000, tls=false, tag=🇨🇳 Netease Proxy China 1
+http=pc.tencentcdn.net:35000, tls=false, tag=🇨🇳 Netease Proxy China 2
+
+http=os.tencentcdn.net:25000, over-tls=false, fast-open=false, udp-relay=false, tag=🐟网易云解锁1
+http=pc.tencentcdn.net:35000, over-tls=false, fast-open=false, udp-relay=false, tag=🐟网易云解锁2
+http=155.248.169.205:70, over-tls=false, fast-open=false, udp-relay=false, tag=🐟网易云解锁3
+http=42.193.231.48:70, over-tls=false, fast-open=false, udp-relay=false, tag=🐟网易云解锁4
+shadowsocks=101.132.192.212:30001, method=aes-128-gcm, password=desperadoj.com_free_proxy_etg0, fast-open=false, udp-relay=false, tag=🐟网易云解锁5
+shadowsocks=101.132.192.212:30003, method=aes-128-gcm, password=desperadoj.com_free_proxy_etg0, fast-open=false, udp-relay=false, tag=🐟网易云解锁6
+
+http=lolico.me:443, over-tls=false, fast-open=false, udp-relay=false,tag=云音乐1 
+http=106.52.127.72:19951, over-tls=false, fast-open=false, udp-relay=false,tag=云音乐2
+
+
+
+# 来自 @浥轻尘 整理
+
+
+
+  
