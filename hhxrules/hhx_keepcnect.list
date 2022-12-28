@@ -16,6 +16,8 @@ DOMAIN-SUFFIX,lezhutv.com,DIRECT
 IP-ASN,23959,DIRECT
 
 
+DOMAIN,v1.cutdog.net,DIRECT
+DOMAIN,adsmind.gdtimg.com,DIRECT  //QQ小程序广告放行
 
 
 
@@ -76,6 +78,16 @@ DOMAIN-SUFFIX,rousewu.in,DIRECT
 
 
  # ------------------查缺补漏的,需要走代理的！--------------------
+ 
+ DOMAIN-KEYWORD,openai,Abroad
+ DOMAIN-SUFFIX,cableav.tv,Abroad
+ DOMAIN-SUFFIX,51cg1.com,Abroad
+ DOMAIN-SUFFIX,bbc.com,Academic
+ DOMAIN-SUFFIX,nytimes.com,Academic
+ DOMAIN-SUFFIX,paopao.dog,Abroad
+ DOMAIN-SUFFIX,ihax.ml,Abroad
+
+ 
 
 # GoodNotes 传输加速 Amazon Cloud 杀伤范围太大了，有待商榷
 
