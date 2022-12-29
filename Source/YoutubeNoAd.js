@@ -161,7 +161,8 @@ function ReOrder(cnt) {
             }
             if (resolve.ret) {
                 console.log("已经切换至未被 <b>Google 送中</b> 的路线中延迟最优节点 ➟ "+array[0])
-                if (cronsign == "Y") { $notify("🥺 Google 定时送中检测&切换", "🥺 已切换至YouTube免广告的最优延迟线路", array[0] +"\n "+Ping)}
+                if (cronsign == "Y") 
+                // 去除通知 { $notify("🥺 Google 定时送中检测&切换", "🥺 已切换至YouTube免广告的最优延迟线路", array[0] +"\n "+Ping)}
                 content = `<p style="text-align: center; font-family: -apple-system; font-size: large; font-weight: thin">` + "<br><b>⟦ "+policy+ " ⟧ </b>已切换至未被<b>Google</b> 送中延迟最优路线<br><br> 👇<br><br> ⟦ "+array[0]+ " ⟧" + "<br><br><font color=#16A085>"+Ping+"</font><br><font color=#FF5733>-----------------------------<br><b>检测详情请查看JS脚本记录</b><br>-----------------------------</font>"+`</p>`
                 $done({"title":"Google 送中检测&切换", "htmlMessage": content })
             }
