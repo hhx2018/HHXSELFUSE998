@@ -7,9 +7,9 @@
     "Description" : "欢呼熊-灰常好用！",
     "Image" : "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Siri.png",
     "task":[
-        "0 0 6 * * * https://raw.githubusercontent.com/hhx2018/HHXSELFUSE999/main/Source/YoutubeNoAd.js, tag=Youtube定时送中, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Advertising.png, enabled=true",
-        "0 0 6 * * * https://raw.githubusercontent.com/hhx2018/HHXSELFUSE999/main/Footbook/copyright/Switch_HHX.js, tag=HHX策略复位, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Emby.png, enabled=true",
-        "0 0 6 * * * https://raw.githubusercontent.com/hhx2018/HHXSELFUSE999/main/Footbook/copyright/api_test.js, tag=测试api, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Emby.png, enabled=true"
-        
+        "0 0 6 * * * https://raw.githubusercontent.com/hhx2018/HHXSELFUSE998/main/Source/YoutubeNoAd.js, tag=Youtube定时送中, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Advertising.png, enabled=true",
+        "0 0 6 * * * https://raw.githubusercontent.com/hhx2018/HHXSELFUSE998/main/FootBook/copyright/Switch_HHX.js, tag=HHX策略复位, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Emby.png, enabled=true",
+        "0 0 6 * * * https://raw.githubusercontent.com/hhx2018/HHXSELFUSE998/main/FootBook/copyright/api_test.js, tag=测试api, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Emby.png, enabled=true"
+       
     ]
 }
