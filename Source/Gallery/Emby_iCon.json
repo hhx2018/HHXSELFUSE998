@@ -1,1 +1,15 @@
-{"name":"EmbyLogo", "description":"EmbyLogo By 欢呼熊", "icons":[{"name":"终点站", "url":"https://raw.githubusercontent.com/hhx2018/HHXSELFUSE999/main/Source/EmbyPic/terminal.png"}, {"name":"CC公益", "url":"https://raw.githubusercontent.com/hhx2018/HHXSELFUSE999/main/Source/EmbyPic/CC.png"}, {"name":"CC公益", "url":"https://raw.githubusercontent.com/hhx2018/HHXSELFUSE999/main/Source/EmbyPic/CC.png"},{"name":"MisakaF", "url":"https://raw.githubusercontent.com/hhx2018/HHXSELFUSE999/main/Source/EmbyPic/Misakaf.png"}]}
+{
+  "name":"EmbyLogo", 
+  "description":"EmbyLogo By 欢呼熊", 
+  "icons":
+  [
+    {"name":"终点站", "url":"https://raw.githubusercontent.com/hhx2018/HHXSELFUSE998/main/Source/EmbyPic/terminal.png"}, 
+    {"name":"CC公益", "url":"https://raw.githubusercontent.com/hhx2018/HHXSELFUSE998/main/Source/EmbyPic/CC.png"}, 
+    {"name":"CC公益", "url":"https://raw.githubusercontent.com/hhx2018/HHXSELFUSE998/main/Source/EmbyPic/CC.png"},
+    {"name":"MisakaF", "url":"https://raw.githubusercontent.com/hhx2018/HHXSELFUSE998/main/Source/EmbyPic/Misakaf.png"}
+  
+  
+  
+  
+  ]
+}
