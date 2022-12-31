@@ -353,7 +353,6 @@ DOMAIN-SUFFIX,assrt.net,DIRECT
 DOMAIN-SUFFIX,shooter.cn,DIRECT
 
 # CC公益服，2022-7-16诞生，首批500名额！
-DOMAIN-SUFFIX,jiasu.ga,HHX
 DOMAIN-SUFFIX,ccemby.tk,HHX
 DOMAIN-KEYWORD,ccemby,HHX
 
@@ -382,9 +381,9 @@ DOMAIN,pub1.emby.wtf,Free
 DOMAIN-SUFFIX,tv.emby.media,HHX
 DOMAIN-SUFFIX,emby.wtf,HHX  
 
-# NetCup
+# NetCup / LoserEmby
 DOMAIN-SUFFIX,emby.ml,HHX
-DOMAIN-SUFFIX,aws.loseremby.org,HHX
+DOMAIN,11.loseremby.org,HHX
 
 
 # MJJ 公益服
@@ -413,14 +412,16 @@ DOMAIN,us.poloemby.xyz,Free
 DOMAIN-SUFFIX,aaa.ax,HHX
 
 # Orange Emby
-# 于2022 10月弃用 DOMAIN-SUFFIX,52.al,HHX
 DOMAIN-SUFFIX,embytv.cf,HHX
+DOMAIN,gia.freeview.cc,HHX
+DOMAIN,hg.freeview.cc,HHX
 
 # Peach Emby
-DOMAIN,sg.embymv.tk,HHX
+DOMAIN,kr.embymv.tk,HHX
+DOMAIN,jp.embymv.tk,HHX
+DOMAIN,us.embymv.tk,HHX
 DOMAIN-SUFFIX,embymv.tk,Free
 IP-CIDR, 209.97.173.144/32,Free
-DOMAIN-SUFFIX,emby-peach.blueseacdn.com,HHX
 
 # 品云Emby
 DOMAIN,py.embyplus.club,Free
@@ -429,6 +430,9 @@ DOMAIN-SUFFIX,embyplus.club,HHX
 # 猫鱼Emby
 DOMAIN-SUFFIX,catfishemby.club,Free
 IP-CIDR,45.83.244.99/31,Free
+
+# 拨浪鼓Emby
+DOMAIN-SUFFIX,embyx.one,HHX
 
 
 
