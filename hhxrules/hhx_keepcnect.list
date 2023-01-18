@@ -406,7 +406,7 @@ DOMAIN-SUFFIX,nmg.llc,HHX
 
 # Polo Emby
 DOMAIN-SUFFIX,poloemby.xyz,HHX
-DOMAIN,us.poloemby.xyz,Free
+DOMAIN-SUFFIX,pololine.ml,HHX
 
 # Misty Emby
 DOMAIN-SUFFIX,aaa.ax,HHX
