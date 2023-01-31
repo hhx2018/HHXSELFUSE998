@@ -5,6 +5,7 @@
 # ------------------我觉得不用走代理的网站--------------------
 
 DOMAIN,alist.xiaoya.pro,DIRECT // 小雅Alist
+DOMAIN-SUFFIX,fileball.app,DIRECT
 
 IP-ASN,40065,DIRECT //USA，但是由套壳APP推流，推测国内可用，大师兄也有这个服务器地址；星空影视也有；飞猪也有
 # 星空影视
