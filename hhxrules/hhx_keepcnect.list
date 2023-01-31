@@ -91,6 +91,7 @@ DOMAIN-SUFFIX,rousewu.in,DIRECT
  DOMAIN-SUFFIX,ihax.ml,Abroad
  
 # ---------- Notion笔记 ------------
+DOMAIN-KEYWORD,notion,Abroad
 DOMAIN-SUFFIX,notion-static.com,Abroad
 DOMAIN-SUFFIX,notion.com,Abroad
 DOMAIN-SUFFIX,notion.new,Abroad
