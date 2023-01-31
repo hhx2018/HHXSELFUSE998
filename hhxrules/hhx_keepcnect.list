@@ -4,6 +4,8 @@
 
 # ------------------我觉得不用走代理的网站--------------------
 
+DOMAIN,alist.xiaoya.pro,DIRECT // 小雅Alist
+
 IP-ASN,40065,DIRECT //USA，但是由套壳APP推流，推测国内可用，大师兄也有这个服务器地址；星空影视也有；飞猪也有
 # 星空影视
 IP-ASN,32244,DIRECT
@@ -79,13 +81,21 @@ DOMAIN-SUFFIX,rousewu.in,DIRECT
 
  # ------------------查缺补漏的,需要走代理的！--------------------
  
- DOMAIN-KEYWORD,openai,Abroad
+ DOMAIN-KEYWORD,openai,Twitter //Twitter一般走新加坡，日本，可用openai
  DOMAIN-SUFFIX,cableav.tv,Abroad
  DOMAIN-SUFFIX,51cg1.com,Abroad
  DOMAIN-SUFFIX,bbc.com,Academic
  DOMAIN-SUFFIX,nytimes.com,Academic
  DOMAIN-SUFFIX,paopao.dog,Abroad
  DOMAIN-SUFFIX,ihax.ml,Abroad
+ 
+# ---------- Notion笔记 ------------
+DOMAIN-SUFFIX,notion-static.com,Abroad
+DOMAIN-SUFFIX,notion.com,Abroad
+DOMAIN-SUFFIX,notion.new,Abroad
+DOMAIN-SUFFIX,notion.site,Abroad
+DOMAIN-SUFFIX,notion.so,Abroad
+
 
  
 
