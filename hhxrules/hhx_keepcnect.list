@@ -110,8 +110,8 @@ DOMAIN-SUFFIX,gitlab.com,Abroad
 DOMAIN-SUFFIX,nivod.tv,Free
 DOMAIN-SUFFIX,deepl.com,Abroad
 DOMAIN,fileboxapp.vercel.app,Abroad
-DOMAIN-KEYWORD,RARBG,Free
-DOMAIN-SUFFIX,imageurl.com,Free
+DOMAIN-KEYWORD,RARBG,Abroad
+DOMAIN-SUFFIX,imageurl.com,Abroad
 DOMAIN-SUFFIX,dyncdn,me,Free
 DOMAIN-SUFFIX,rb.gy,Free
 DOAMIN-SUFFIX,typing.com,Free
@@ -137,12 +137,12 @@ DOMAIN-KEYWORD,zhenbuka,DIRECT
 
 DOMAIN,szlong.weixin.qq.com,DIRECT
 DOMAIN,szshort.weixin.qq.com,DIRECT
-DOMAIN,socpk.com,Free
+DOMAIN,socpk.com,Abroad
 
-DOMAIN,peace.mimon.cc,Free
+DOMAIN,peace.mimon.cc,Abroad
 DOMAIN,openit.ml,DIRECT
-DOMAIN,mb3admin.com,Free
-IP-CIDR,13.115.230.29/32,Free
+DOMAIN,mb3admin.com,Abroad
+IP-CIDR,13.115.230.29/32,Abroad
 IP-CIDR,154.3.34.46/32,DIRECT
 IP-CIDR,5.28.195.95/32,DIRECT
 
@@ -178,14 +178,14 @@ DOMAIN-SUFFIX,bljiex.cc,DIRECT
 
 # 机场分流
 DOMAIN-KEYWORD,fenglingcloud,DIRECT
-DOMAIN,yaofan.cc,Free
-DOMAIN-SUFFIX,prprcloud.moe,Free
-DOMAIN,prpr.xprpr.io,Free
-DOMAIN-SUFFIX,freemycloud.site,Free
-DOMAIN-KEYWORD,freemycloud,Free
-DOMAIN-SUFFIX,sd-yun.xyz,Free
-DOMAIN-SUFFIX,sdyun.cc,Free
-DOMAIN-SUFFIX,paopao.dog,Free
+DOMAIN,yaofan.cc,Abroad
+DOMAIN-SUFFIX,prprcloud.moe,Abroad
+DOMAIN,prpr.xprpr.io,Abroad
+DOMAIN-SUFFIX,freemycloud.site,Abroad
+DOMAIN-KEYWORD,freemycloud,Abroad
+DOMAIN-SUFFIX,sd-yun.xyz,Abroad
+DOMAIN-SUFFIX,sdyun.cc,Abroad
+DOMAIN-SUFFIX,paopao.dog,Abroad
 
 # 苹果服务
 # DOMAIN,itunes.apple.com,DIRECT
@@ -263,8 +263,8 @@ DOMAIN-SUFFIX,megaxfer.ru,Free
 DOMAIN-SUFFIX,subscene.com,Free
 
 # 字幕下载
-DOMAIN-SUFFIX,1clickcdn.ru,Free
-DOMAIN-SUFFIX,opensubtitles.org,Free
+DOMAIN-SUFFIX,1clickcdn.ru,Abroad
+DOMAIN-SUFFIX,opensubtitles.org,Abroad
 
 
 # load video,分别为 720P ,1080P,主要是dudeimage推流
@@ -355,7 +355,7 @@ DOMAIN-SUFFIX,bing.com,DIRECT
 # Speedtest测速
 DOMAIN-SUFFIX,speedtest.net,DIRECT
 # 下面这个是用来测试vpn可用性的？
-DOMAIN,ipgeo.wlvpn.com,Free
+DOMAIN,ipgeo.wlvpn.com,Abroad
 
 
 # ------------ E m b y --------------
