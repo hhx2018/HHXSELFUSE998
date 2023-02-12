@@ -6,6 +6,7 @@
 
 DOMAIN,alist.xiaoya.pro,DIRECT // 小雅Alist
 DOMAIN-SUFFIX,fileball.app,DIRECT
+DOMAIN-SUFFIX,caiyunapp.com,DIRECT
 
 IP-ASN,40065,DIRECT //USA，但是由套壳APP推流，推测国内可用，大师兄也有这个服务器地址；星空影视也有；飞猪也有
 # 星空影视
@@ -82,7 +83,8 @@ DOMAIN-SUFFIX,rousewu.in,DIRECT
 
  # ------------------查缺补漏的,需要走代理的！--------------------
  
- DOMAIN-KEYWORD,openai,Twitter //Twitter一般走新加坡，日本，可用openai
+ DOMAIN-SUFFIX,socpk.com,Abroad
+ DOMAIN-KEYWORD,openai,PROXY
  DOMAIN-SUFFIX,cableav.tv,Abroad
  DOMAIN-SUFFIX,51cg1.com,Abroad
  DOMAIN-SUFFIX,bbc.com,Academic
@@ -350,7 +352,7 @@ DOMAIN,sugar.zhihu.com,DIRECT
 
 # 必应中国
 DOMAIN,cn.bing.com,DIRECT
-DOMAIN-SUFFIX,bing.com,DIRECT
+DOMAIN-SUFFIX,bing.com,Abroad
 
 # Speedtest测速
 DOMAIN-SUFFIX,speedtest.net,DIRECT
