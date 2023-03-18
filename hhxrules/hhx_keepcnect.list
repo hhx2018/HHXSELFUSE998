@@ -84,7 +84,6 @@ DOMAIN-SUFFIX,rousewu.in,DIRECT
  # ------------------查缺补漏的,需要走代理的！--------------------
  
  DOMAIN-SUFFIX,socpk.com,Abroad
- DOMAIN-KEYWORD,openai,PROXY
  DOMAIN-SUFFIX,cableav.tv,Abroad
  DOMAIN-SUFFIX,51cg1.com,Abroad
  DOMAIN-SUFFIX,bbc.com,Academic
