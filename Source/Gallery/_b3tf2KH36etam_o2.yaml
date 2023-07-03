@@ -30,7 +30,7 @@ proxy-groups:
     proxies:
       - DIRECT
       - 🚀 手动切换
-    - name: 仅限中国大陆
+  - name: 仅限中国大陆
     type: select
     proxies:
       - DIRECT
