@@ -50,7 +50,7 @@ proxy-groups:
       - 🚀 手动切换
 rules:
 
-
+ - DOMAIN-SUFFIX,oppo.com,仅限中国大陆
  - DOMAIN-SUFFIX,cpta.com.cn,仅限中国大陆
  - DOMAIN-SUFFIX,iqiyi.com,🌏 国内媒体
  - DOMAIN-SUFFIX,v.qq.com,🌏 国内媒体
