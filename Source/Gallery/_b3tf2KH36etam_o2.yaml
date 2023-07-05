@@ -5,7 +5,7 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: SZhen TencentCloud_Gcm, server: h.325d325, port: 2345, type: ss, cipher: aes-256-gcm, password: 11b0a8d68008af3e, udp: true}
+  - {name: SZhen TencentCloud_Gcm, server: h.325d325, port: 2345, type: ss, cipher: aes-256-gcm, password: 11b0a8d68008af3e, udp: true},
   - {name: GZhou TencentCloud_Cfd, server: 251a325n, port: 10935, type: ss, cipher: aes-256-cfb, password: asdfghjklmnbvcxz?o0, udp: true}
 proxy-groups:
   - name: 🚀 国内中转
