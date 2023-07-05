@@ -8,7 +8,7 @@ proxies:
   - {name: SZhen TencentCloud_Gcm, server: h.325d325, port: 2345, type: ss, cipher: aes-256-gcm, password: 11b0a8d68008af3e, udp: true}
   - {name: GZhou TencentCloud_Cfd, server: 251a325n, port: 10935, type: ss, cipher: aes-256-cfb, password: asdfghjklmnbvcxz?o0, udp: true}
 proxy-groups:
-  - name: 🚀 手动切换
+  - name: 🚀 国内中转
     type: select
     proxies:
       - SZhen TencentCloud_Gcm
@@ -17,24 +17,24 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
-      - 🚀 手动切换
+      - 🚀 国内中转
 
   - name: 🌏 国内媒体
     type: select
     proxies:
       - DIRECT
-      - 🚀 手动切换
+      - 🚀 国内中转
 
   - name: 🎶 网易音乐
     type: select
     proxies:
       - DIRECT
-      - 🚀 手动切换
+      - 🚀 国内中转
   - name: 仅限中国大陆
     type: select
     proxies:
       - DIRECT
-      - 🚀 手动切换
+      - 🚀 国内中转
   - name: 🛑 广告拦截
     type: select
     proxies:
@@ -47,7 +47,7 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
-      - 🚀 手动切换
+      - 🚀 国内中转
 rules:
 
  - DOMAIN-SUFFIX,oppo.com,仅限中国大陆
