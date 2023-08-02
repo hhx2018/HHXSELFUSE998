@@ -52,13 +52,14 @@ rules:
 
  - DOMAIN-SUFFIX,oppo.com,仅限中国大陆
  - DOMAIN-SUFFIX,cpta.com.cn,仅限中国大陆
-
+ - DOMAIN,oa.cciei.com.cn,仅限中国大陆
+ - IP-CIDR,61.147.173.133/32,仅限中国大陆
 
  - DOMAIN-SUFFIX,bilibili.com,📺 哔哩哔哩
  - DOMAIN-SUFFIX,music.163.com,🎶 网易音乐
+ - IP-CIDR,203.205.255.185/32,🎶 网易音乐
 
-
-
+ - DOMAIN-SUFFIX,realme.com,🌏 国内媒体
  - DOMAIN-SUFFIX,video.qq.com,🌏 国内媒体
  - DOMAIN-SUFFIX,v.qq.com,🌏 国内媒体
  - DOMAIN-SUFFIX,iqiyi.com,🌏 国内媒体
