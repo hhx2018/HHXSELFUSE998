@@ -55,6 +55,7 @@ rules:
  - DOMAIN,oa.cciei.com.cn,仅限中国大陆
  - IP-CIDR,61.147.173.133/32,仅限中国大陆
  - DOMAIN-SUFFIX,realme.net,仅限中国大陆
+ - DOMAIN,oneplus.com,仅限中国大陆
 
  - DOMAIN-SUFFIX,bilibili.com,📺 哔哩哔哩
  - DOMAIN-SUFFIX,music.163.com,🎶 网易音乐
