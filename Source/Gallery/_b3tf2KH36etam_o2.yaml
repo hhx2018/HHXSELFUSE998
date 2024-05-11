@@ -19,6 +19,7 @@ proxy-groups:
       - DIRECT
       - 🚀 国内中转
 
+
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -86,6 +87,159 @@ rules:
 
 
 
+
+
+
+
+
+
+
+
+
+
+ - DOMAIN,netease.ugcvideoss.ourdvs.com,🎶 网易音乐
+ - DOMAIN-SUFFIX,126.am,🎶 网易音乐
+ - DOMAIN-SUFFIX,126.com,🎶 网易音乐
+ - DOMAIN-SUFFIX,126.fm,🎶 网易音乐
+ - DOMAIN-SUFFIX,126.link,🎶 网易音乐
+ - DOMAIN-SUFFIX,126.net,🎶 网易音乐
+ - DOMAIN-SUFFIX,127.com,🎶 网易音乐
+ - DOMAIN-SUFFIX,127.net,🎶 网易音乐
+ - DOMAIN-SUFFIX,127cdn.com,🎶 网易音乐
+ - DOMAIN-SUFFIX,163.com,🎶 网易音乐
+ - DOMAIN-SUFFIX,163.fm,🎶 网易音乐
+ - DOMAIN-SUFFIX,163.link,🎶 网易音乐
+ - DOMAIN-SUFFIX,163adl.com,🎶 网易音乐
+ - DOMAIN-SUFFIX,163cms.cn,🎶 网易音乐
+ - DOMAIN-SUFFIX,163cms.com,🎶 网易音乐
+ - DOMAIN-SUFFIX,163fen.com,🎶 网易音乐
+ - DOMAIN-SUFFIX,163img.cn,🎶 网易音乐
+ - DOMAIN-SUFFIX,163img.com,🎶 网易音乐
+ - DOMAIN-SUFFIX,163industry.com,🎶 网易音乐
+ - DOMAIN-SUFFIX,163jiasu.com,🎶 网易音乐
+ - DOMAIN-SUFFIX,163kada.com,🎶 网易音乐
+ - DOMAIN-SUFFIX,163mail.com,🎶 网易音乐
+ - DOMAIN-SUFFIX,163mail.net,🎶 网易音乐
+ - DOMAIN-SUFFIX,163nasa.com,🎶 网易音乐
+ - DOMAIN-SUFFIX,163nos.com,🎶 网易音乐
+ - DOMAIN-SUFFIX,163yun.com,🎶 网易音乐
+ - DOMAIN-SUFFIX,166.com,🎶 网易音乐
+ - DOMAIN-SUFFIX,166.net,🎶 网易音乐
+ - DOMAIN-SUFFIX,166cdn.com,🎶 网易音乐
+ - DOMAIN-SUFFIX,166dns.com,🎶 网易音乐
+ - DOMAIN-SUFFIX,188.com,🎶 网易音乐
+ - DOMAIN-SUFFIX,188.net,🎶 网易音乐
+ - DOMAIN-SUFFIX,188cdn.com,🎶 网易音乐
+ - DOMAIN-SUFFIX,21cntx.com,🎶 网易音乐
+ - DOMAIN-SUFFIX,321fenx.com,🎶 网易音乐
+ - DOMAIN-SUFFIX,adl163.com,🎶 网易音乐
+ - DOMAIN-SUFFIX,chatnos.com,🎶 网易音乐
+ - DOMAIN-SUFFIX,dingwei.link,🎶 网易音乐
+ - DOMAIN-SUFFIX,easebar.com,🎶 网易音乐
+ - DOMAIN-SUFFIX,easebar.net,🎶 网易音乐
+ - DOMAIN-SUFFIX,gamehaopu.com,🎶 网易音乐
+ - DOMAIN-SUFFIX,haowu.link,🎶 网易音乐
+ - DOMAIN-SUFFIX,huihui.cn,🎶 网易音乐
+ - DOMAIN-SUFFIX,hukeck.com,🎶 网易音乐
+ - DOMAIN-SUFFIX,hukecs.com,🎶 网易音乐
+ - DOMAIN-SUFFIX,hukecwx.com,🎶 网易音乐
+ - DOMAIN-SUFFIX,hukefjb.com,🎶 网易音乐
+ - DOMAIN-SUFFIX,hukehyh.com,🎶 网易音乐
+ - DOMAIN-SUFFIX,hukelc.com,🎶 网易音乐
+ - DOMAIN-SUFFIX,hukenb.com,🎶 网易音乐
+ - DOMAIN-SUFFIX,hukesxm.com,🎶 网易音乐
+ - DOMAIN-SUFFIX,hukewq.com,🎶 网易音乐
+ - DOMAIN-SUFFIX,hukexyy.com,🎶 网易音乐
+ - DOMAIN-SUFFIX,icourse163.cn,🎶 网易音乐
+ - DOMAIN-SUFFIX,icourse163.com,🎶 网易音乐
+ - DOMAIN-SUFFIX,icourse163.org,🎶 网易音乐
+ - DOMAIN-SUFFIX,icourses163.cn,🎶 网易音乐
+ - DOMAIN-SUFFIX,icourses163.com,🎶 网易音乐
+ - DOMAIN-SUFFIX,icourses163.org,🎶 网易音乐
+ - DOMAIN-SUFFIX,kada.com,🎶 网易音乐
+ - DOMAIN-SUFFIX,kada163.com,🎶 网易音乐
+ - DOMAIN-SUFFIX,laiqukankan.com,🎶 网易音乐
+ - DOMAIN-SUFFIX,lf126.net,🎶 网易音乐
+ - DOMAIN-SUFFIX,lf127.net,🎶 网易音乐
+ - DOMAIN-SUFFIX,lofter.com,🎶 网易音乐
+ - DOMAIN-SUFFIX,marvelunlimitedresources.com,🎶 网易音乐
+ - DOMAIN-SUFFIX,nbhuke.com,🎶 网易音乐
+ - DOMAIN-SUFFIX,ndiip.com,🎶 网易音乐
+ - DOMAIN-SUFFIX,nease.net,🎶 网易音乐
+ - DOMAIN-SUFFIX,netease-inc.com,🎶 网易音乐
+ - DOMAIN-SUFFIX,netease.com,🎶 网易音乐
+ - DOMAIN-SUFFIX,netease.im,🎶 网易音乐
+ - DOMAIN-SUFFIX,neteasegame.com,🎶 网易音乐
+ - DOMAIN-SUFFIX,neteasegame.net,🎶 网易音乐
+ - DOMAIN-SUFFIX,neteasegames.com,🎶 网易音乐
+ - DOMAIN-SUFFIX,neteasegames.net,🎶 网易音乐
+ - DOMAIN-SUFFIX,netstatic.net,🎶 网易音乐
+ - DOMAIN-SUFFIX,njdiip.com,🎶 网易音乐
+ - DOMAIN-SUFFIX,ntes53.com,🎶 网易音乐
+ - DOMAIN-SUFFIX,ntes53.net,🎶 网易音乐
+ - DOMAIN-SUFFIX,ntescdn.com,🎶 网易音乐
+ - DOMAIN-SUFFIX,playdisorder.com,🎶 网易音乐
+ - DOMAIN-SUFFIX,playfab.cn,🎶 网易音乐
+ - DOMAIN-SUFFIX,qiyukf.com,🎶 网易音乐
+ - DOMAIN-SUFFIX,qiyukf.net,🎶 网易音乐
+ - DOMAIN-SUFFIX,static163.net,🎶 网易音乐
+ - DOMAIN-SUFFIX,tx163.com,🎶 网易音乐
+ - DOMAIN-SUFFIX,yaoluu.com,🎶 网易音乐
+ - DOMAIN-SUFFIX,ydstatic.cn,🎶 网易音乐
+ - DOMAIN-SUFFIX,ydstatic.com,🎶 网易音乐
+ - DOMAIN-SUFFIX,yeah.net,🎶 网易音乐
+ - DOMAIN-SUFFIX,yodao.cn,🎶 网易音乐
+ - DOMAIN-SUFFIX,yodao.com,🎶 网易音乐
+ - DOMAIN-SUFFIX,yodao.com.cn,🎶 网易音乐
+ - DOMAIN-SUFFIX,yodao.info,🎶 网易音乐
+ - DOMAIN-SUFFIX,yodao.net,🎶 网易音乐
+ - DOMAIN-SUFFIX,yodao.org,🎶 网易音乐
+ - DOMAIN-SUFFIX,youdao.com,🎶 网易音乐
+ - DOMAIN-SUFFIX,yqkk.link,🎶 网易音乐
+ - DOMAIN-SUFFIX,ytiao.cn,🎶 网易音乐
+ - DOMAIN-SUFFIX,ytiny.cn,🎶 网易音乐
+ - DOMAIN-SUFFIX,yun-app.net,🎶 网易音乐
+ - DOMAIN-SUFFIX,yunxin163.com,🎶 网易音乐
+ - DOMAIN-SUFFIX,yunxinapi.com,🎶 网易音乐
+ - DOMAIN-SUFFIX,yunxindns.com,🎶 网易音乐
+ - DOMAIN-SUFFIX,yunxinfw.com,🎶 网易音乐
+ - DOMAIN-SUFFIX,yunxingslb.com,🎶 网易音乐
+ - DOMAIN-SUFFIX,yunxinhi.com,🎶 网易音乐
+ - DOMAIN-SUFFIX,yunxinhy.com,🎶 网易音乐
+ - DOMAIN-SUFFIX,yunxinrtc.com,🎶 网易音乐
+ - DOMAIN-SUFFIX,yunxinsvip.com,🎶 网易音乐
+ - DOMAIN-SUFFIX,yunxinsvr.com,🎶 网易音乐
+ - DOMAIN-SUFFIX,yunxinvcloud.com,🎶 网易音乐
+ - DOMAIN-SUFFIX,yunxinvideo.com,🎶 网易音乐
+ - DOMAIN-SUFFIX,zhuanzfx.com,🎶 网易音乐
+ - IP-CIDR,101.71.154.241/32,🎶 网易音乐
+ - IP-CIDR,103.126.92.132/31,🎶 网易音乐
+ - IP-CIDR,112.13.119.17/32,🎶 网易音乐
+ - IP-CIDR,112.13.119.18/32,🎶 网易音乐
+ - IP-CIDR,112.13.122.1/32,🎶 网易音乐
+ - IP-CIDR,112.13.122.4/32,🎶 网易音乐
+ - IP-CIDR,115.236.118.33/32,🎶 网易音乐
+ - IP-CIDR,115.236.118.34/32,🎶 网易音乐
+ - IP-CIDR,115.236.121.1/32,🎶 网易音乐
+ - IP-CIDR,115.236.121.4/32,🎶 网易音乐
+ - IP-CIDR,118.24.63.156/32,🎶 网易音乐
+ - IP-CIDR,182.92.170.253/32,🎶 网易音乐
+ - IP-CIDR,193.112.159.225/32,🎶 网易音乐
+ - IP-CIDR,223.252.199.66/31,🎶 网易音乐
+ - IP-CIDR,39.105.175.128/32,🎶 网易音乐
+ - IP-CIDR,39.105.63.80/32,🎶 网易音乐
+ - IP-CIDR,45.254.48.1/32,🎶 网易音乐
+ - IP-CIDR,47.100.127.239/32,🎶 网易音乐
+ - IP-CIDR,59.111.160.195/32,🎶 网易音乐
+ - IP-CIDR,59.111.160.197/32,🎶 网易音乐
+ - IP-CIDR,59.111.179.214/32,🎶 网易音乐
+ - IP-CIDR,59.111.181.155/32,🎶 网易音乐
+ - IP-CIDR,59.111.181.35/32,🎶 网易音乐
+ - IP-CIDR,59.111.181.38/32,🎶 网易音乐
+ - IP-CIDR,59.111.181.60/32,🎶 网易音乐
+ - IP-CIDR,59.111.19.33/32,🎶 网易音乐
+ - IP-CIDR,59.111.21.14/31,🎶 网易音乐
+ - IP-CIDR,59.111.238.29/32,🎶 网易音乐
 
  - DOMAIN-SUFFIX,acl4.ssr,DIRECT
  - DOMAIN-SUFFIX,ip6-localhost,DIRECT
